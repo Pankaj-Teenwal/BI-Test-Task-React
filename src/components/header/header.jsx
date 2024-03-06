@@ -8,7 +8,6 @@ import {
   IconsWithBorder,
   SearchBarWrapper,
   SearchInput,
-  TextWrapper,
   Tracker,
 } from "./headerStyles";
 import {
@@ -23,10 +22,10 @@ const Header = () => {
   return (
     <HeaderWrapper>
       <HeaderTextWrapper>
-        <TextWrapper>
+        <div>
           <Covid>Covid-19</Covid>
           <Tracker>Live Tracker Dashboard</Tracker>
-        </TextWrapper>
+        </div>
       </HeaderTextWrapper>
 
       <IconSearchBarWrapper>
@@ -37,13 +36,13 @@ const Header = () => {
 
         <IconWrapper>
           <IconsWithBorder>
-            <CircleUserRound size={18} strokeWidth={1.5} color="#C7C6CD" />
-            <ChevronDown size={18} strokeWidth={1.5} color="#C7C6CD" />
+            <CircleUserRound size={24} strokeWidth={1.5} color="#C7C6CD" />
+            <ChevronDown size={24} strokeWidth={1.5} color="#C7C6CD" />
           </IconsWithBorder>
 
           <Icons>
-            <BellDot size={18} strokeWidth={1.5} color="#C7C6CD" />
-            <LogOut size={18} strokeWidth={1.5} color="#C7C6CD" />
+            <BellDot size={24} strokeWidth={1.5} color="#C7C6CD" />
+            <LogOut size={24} strokeWidth={1.5} color="#C7C6CD" />
           </Icons>
         </IconWrapper>
       </IconSearchBarWrapper>
