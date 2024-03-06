@@ -1,4 +1,6 @@
 import { Line } from "react-chartjs-2";
+import { CategoryScale, Chart } from "chart.js/auto";
+
 import { P, ChartWrapper, ChartNumberRed } from "./cardChartStyles";
 
 const DeathChart = (chartdata) => {
@@ -29,6 +31,7 @@ const DeathChart = (chartdata) => {
         display: false,
       },
     },
+    
   };
 
   return (

@@ -1,4 +1,5 @@
 import { Doughnut } from "react-chartjs-2";
+import { CategoryScale, Chart } from "chart.js/auto";
 import { PieChartWrapper } from "./pieChartStyles";
 
 const PieChart = (chartdata) => {

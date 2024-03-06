@@ -1,4 +1,5 @@
 import { Bar } from "react-chartjs-2";
+import { CategoryScale, Chart } from "chart.js/auto";
 import { BarChartWrapper, P } from "./barChartStyles";
 
 const BarChart = (chartdata) => {
@@ -28,9 +29,7 @@ const BarChart = (chartdata) => {
 
   const options = {
     scales: {
-      //   x: {
-      //     display: false,
-      //   },
+      
       y: {
         display: true,
         suggestedMin: 0,

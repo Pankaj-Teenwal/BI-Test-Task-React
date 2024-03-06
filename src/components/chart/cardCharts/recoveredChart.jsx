@@ -1,4 +1,5 @@
 import { Line } from "react-chartjs-2";
+import { CategoryScale, Chart } from "chart.js/auto";
 import { ChartNumberGreen, ChartWrapper, P } from "./cardChartStyles";
 
 const RecoveredChart = (chartdata) => {

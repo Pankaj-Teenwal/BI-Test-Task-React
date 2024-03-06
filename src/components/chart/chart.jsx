@@ -10,6 +10,8 @@ import {
   CardChartWrapper,
   PieGeoChartWrapper,
 } from "./chartStyles";
+import Aside from "../aside/aside";
+import { ChartWrapper } from "./cardCharts/cardChartStyles";
 
 const Chart = () => {
   const [apiResponse, setApiResponse] = useState({});
@@ -63,18 +65,20 @@ const Chart = () => {
 
   return (
     <div>
-      <CardChartWrapper>
-        <CaseChart chartdata={calculatedData} />
-        <DeathChart chartdata={calculatedData} />
-        <RecoveredChart chartdata={calculatedData} />
-      </CardChartWrapper>
-      <BarChartWrapper>
-        <BarChart chartdata={calculatedData} />
-      </BarChartWrapper>
-      <PieGeoChartWrapper>
-        <PieChart chartdata={calculatedData} />
-        <GeoChart chartdata={calculatedData} />
-      </PieGeoChartWrapper>
+      <div>
+        <CardChartWrapper>
+          <CaseChart chartdata={calculatedData} />
+          <DeathChart chartdata={calculatedData} />
+          <RecoveredChart chartdata={calculatedData} />
+        </CardChartWrapper>
+        <BarChartWrapper>
+          <BarChart chartdata={calculatedData} />
+        </BarChartWrapper>
+        <PieGeoChartWrapper>
+          <PieChart chartdata={calculatedData} />
+          <GeoChart chartdata={calculatedData} />
+        </PieGeoChartWrapper>
+      </div>
     </div>
   );
 };

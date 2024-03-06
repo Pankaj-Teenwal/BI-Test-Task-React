@@ -1,4 +1,5 @@
 import { Line } from "react-chartjs-2";
+import { CategoryScale, Chart } from "chart.js/auto";
 import { ChartNumber, ChartWrapper, P } from "./cardChartStyles";
 
 const CaseChart = (chartdata) => {
@@ -29,6 +30,8 @@ const CaseChart = (chartdata) => {
         display: false,
       },
     },
+
+
   };
 
   return (

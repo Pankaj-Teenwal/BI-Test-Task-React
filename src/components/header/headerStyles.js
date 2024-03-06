@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
-height:62px;
+height:32px;
 font-family:"Montserrat", sans-serif;
 background-color:#F9FDFF;
 display:flex;
