@@ -10,8 +10,7 @@ import {
   CardChartWrapper,
   PieGeoChartWrapper,
 } from "./chartStyles";
-import Aside from "../aside/aside";
-import { ChartWrapper } from "./cardCharts/cardChartStyles";
+
 import WorldMap from "../worldMap/worldMap";
 
 const Chart = () => {
@@ -67,7 +66,6 @@ const Chart = () => {
   return (
     <div
       style={{
-      
         display: "flex",
         gap: "6px",
         flexDirection: "column",
@@ -83,7 +81,7 @@ const Chart = () => {
         <BarChart chartdata={calculatedData} />
       </BarChartWrapper>
       <PieGeoChartWrapper>
-        <WorldMap/>
+        <WorldMap />
         <PieChart chartdata={calculatedData} />
         <GeoChart chartdata={calculatedData} />
       </PieGeoChartWrapper>

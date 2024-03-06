@@ -55,7 +55,7 @@ line-height:20px;
 export const SymptomsWrapper = styled.div`
 display:flex;
 padding:0px 8px;
-// margin:4px 0px 4px 0px;
+
 `
 
 export const AsideWrapper = styled.div`
