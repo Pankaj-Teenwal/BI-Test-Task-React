@@ -36,7 +36,7 @@ export function GeoChart(chartdata) {
         ]}
         chartType="GeoChart"
         width="480px"
-        height="200px"
+        height="100%"
         data={data}
         options={{
           colorAxis: {

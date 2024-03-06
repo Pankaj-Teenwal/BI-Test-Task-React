@@ -6,10 +6,11 @@ import "./index.css";
 // import Header from "./components/header/header.jsx";
 // import Chart from "./components/chart/chart.jsx";
 // import Aside from "./components/aside/aside.jsx";
-import Menu from "./components/menu/menu.jsx";
+// import Menu from "./components/menu/menu.jsx";
+import LandingPage from "./components/landingPage/landingPage.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <div>
-    <Menu />
+    <LandingPage />
   </div>
 );

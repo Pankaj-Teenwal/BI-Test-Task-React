@@ -7,7 +7,7 @@ display:flex;
 flex-direction:column;
 align-items:center;
 justify-content:space-between;
-width: 68px;
+width:100%;
 padding: 18px 0px;
 border-radius: 55px;
 box-sizing:border-box;

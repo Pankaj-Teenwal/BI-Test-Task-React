@@ -29,7 +29,6 @@ const BarChart = (chartdata) => {
 
   const options = {
     scales: {
-      
       y: {
         display: true,
         suggestedMin: 0,
@@ -52,7 +51,9 @@ const BarChart = (chartdata) => {
       <div>
         <P>Covid-19 Statistics</P>
       </div>
-      <Bar data={data} options={options} />
+      <div style={{ width: "100%", height:"100%" }}>
+        <Bar data={data} options={options} />
+      </div>
     </BarChartWrapper>
   );
 };

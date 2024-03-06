@@ -30,11 +30,17 @@ const RecoveredChart = (chartdata) => {
         display: false,
       },
     },
+    categoryPercentage: 0.3,
+    maintainAspectRatio: false,
+    responsive: true,
   };
 
   return (
     <ChartWrapper>
-      <Line data={data} options={options} />
+      <div style={{ height: "70%" }}>
+        <Line data={data} options={options} />
+      </div>
+
       <div>
         <ChartNumberGreen>
           {chartdata.chartdata.totalRecoveredCase}

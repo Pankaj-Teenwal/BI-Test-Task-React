@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
-height:32px;
+height:8vh;
 font-family:"Montserrat", sans-serif;
 background-color:#F9FDFF;
 display:flex;
 align-items:center;  
 justify-content:space-between;
-padding:12px 32px;
+padding:12px 20px 12px 32px;
+box-sizing:border-box;
+
 `
 
 export const HeaderTextWrapper = styled.div`
@@ -18,7 +20,7 @@ gap:200px;
 `
 
 export const Covid = styled.p`
-    font-size:28px;
+    font-size:22px;
     font-weight:700;
     color:#5B39A0;
 `
